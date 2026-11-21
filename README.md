@@ -1,41 +1,57 @@
-# Laza - E-Commerce Mobile App UI (Flutter)
+# Laza — Flutter E-commerce UI
 
-Aplikasi e-commerce mobile dengan desain inspirasi Figma, dibangun menggunakan Flutter. Dilengkapi dengan **dark mode**, **custom icons**, dan dukungan **iOS/Android**.
+![Flutter](https://img.shields.io/badge/Flutter-2f81f7?style=flat) ![Dart](https://img.shields.io/badge/Dart-2f81f7?style=flat) ![Android](https://img.shields.io/badge/Android-2f81f7?style=flat) ![iOS](https://img.shields.io/badge/iOS-2f81f7?style=flat)
 
-![Flutter](https://img.shields.io/badge/Flutter-3.1.0+-blue?logo=flutter)
-![License](https://img.shields.io/badge/Lisensi-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-orange)
+> Implementasi antarmuka mobile e-commerce yang berfokus pada pengalaman katalog, detail produk, dan tema visual.
 
-## 🚀 Fitur
+## Tentang proyek
 
-✅ **Dark Mode** – Ganti tema terang/gelap dengan mudah.
-✅ **Custom Icons** – Ikon UI unik untuk tampilan yang lebih menarik.
-✅ **Cross-Platform** – Berjalan mulus di iOS dan Android.
-✅ **Open Source** – Lisensi MIT, bebas dimodifikasi dan didistribusikan.
+Implementasi antarmuka mobile e-commerce yang berfokus pada pengalaman katalog, detail produk, dan tema visual. Dokumentasi ini dibuat sebagai panduan singkat untuk memahami ruang lingkup proyek, menjalankannya secara lokal, dan membaca batasan penggunaannya.
 
-## 🛠 Cara Memulai
+## Fitur utama
 
-### Prasyarat
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (v3.1.0 atau lebih baru).
-- Android Studio / Xcode (untuk build platform-specific).
+- Dark mode
+- Custom icon font
+- Layout responsif untuk iOS dan Android
+- Struktur asset dan screen Flutter
+- Komponen UI yang mudah dikembangkan
 
-### Instalasi
-1. **Clone repo ini**:
-   ```bash
-   git clone https://github.com/username-kamu/nama-repo.git
-   cd nama-repo
-2. **Install dependencies**:
-   ```bash
-   flutter pub get
-3. **Jalankan aplikasi**:
-   ```bash
-   flutter run
+## Teknologi
 
-## 🎨 Kustomisasi
-Assets: Ganti gambar di assets/images/ dan font di assets/fonts/ dengan milikmu.  
-Tema: Ubah warna/font di lib/themes.dart.  
-Ikon: Update assets/fonts/LazaIcons.ttf untuk ikon kustom.  
+- Flutter
+- Dart
+- Android
+- iOS
 
-## 🤝 Penghargaan
-Desain Figma asli oleh Abid Akram.  
-Terinspirasi dari file komunitas Figma ini.  
+## Menjalankan secara lokal
+
+Prasyarat dan konfigurasi dapat berbeda menurut sistem operasi. Contoh langkah utama:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Struktur dan pengembangan
+
+Mulai dari entry point dan folder konfigurasi proyek. Pisahkan credential lokal dari source code, tambahkan test untuk perubahan penting, dan gunakan environment variable untuk konfigurasi deployment.
+
+## Keamanan
+
+- Jangan commit API key, password, token, session ID, atau data pribadi.
+- Gunakan file environment lokal dan contoh konfigurasi tanpa nilai rahasia.
+- Uji perubahan pada environment development sebelum deployment.
+
+## Status
+
+Proyek ini merupakan bagian dari portofolio **Hilman Arifin Ilham** dan dapat dikembangkan sesuai kebutuhan penggunaan.
+
+> **Catatan:** Repo ini berfokus pada UI/prototype. Ganti konfigurasi platform dan asset sesuai target aplikasi sebelum rilis.
+
+## Lisensi
+
+Belum ada lisensi open-source yang dinyatakan di repository ini. Hubungi pemilik repository sebelum menggunakan ulang atau mendistribusikan kode.
+
+---
+
+Dibuat oleh [Hilman Arifin Ilham](https://github.com/hilman-devop).
