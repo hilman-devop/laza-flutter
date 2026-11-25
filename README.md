@@ -4,6 +4,12 @@
 
 > Implementasi antarmuka mobile e-commerce yang berfokus pada pengalaman katalog, detail produk, dan tema visual.
 
+## Preview
+
+![UI katalog Laza](screenshots/portfolio-preview.jpg)
+
+*Potongan tampilan katalog dari screenshot yang sudah tersedia di `Laza/screenshots/laza-screenshot.png`; bukan capture baru dari emulator. Panel profil, alamat, dan informasi pembayaran tidak disertakan.*
+
 ## Tentang proyek
 
 Implementasi antarmuka mobile e-commerce yang berfokus pada pengalaman katalog, detail produk, dan tema visual. Dokumentasi ini dibuat sebagai panduan singkat untuk memahami ruang lingkup proyek, menjalankannya secara lokal, dan membaca batasan penggunaannya.
